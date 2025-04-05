@@ -2,6 +2,22 @@ body {
    background-color: lightblue;
 }
 
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+
+h1 {
+  animation: colorChange 5s infinite;
+}
+
 .coded-by-pianoman0{
   font-family:"IBM Plex Mono", monospace;
   position:fixed;
